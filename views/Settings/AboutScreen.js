@@ -76,6 +76,8 @@ function AboutScreen({ navigation }) {
     'getpapillon.xyz',
     'just-tryon.tech',
     'tryon-lab.fr',
+    'astroman.dev',
+    'shams-rpi',
     'vincelinise.com',
   ];
 
@@ -250,13 +252,13 @@ function AboutScreen({ navigation }) {
               />
             }
             chevron
-            onPress={() => Linking.openURL('https://discord.getpapillon.xyz/')}
+            onPress={() => Linking.openURL('https://astroman.dev/')}
           >
             <NativeText heading="h4">
-              Serveur Discord
+              Site web du dev 
             </NativeText>
             <NativeText heading="p2">
-              Rejoindre le serveur de Papillon
+              astroman.dev
             </NativeText>
           </NativeItem>
         </NativeList>

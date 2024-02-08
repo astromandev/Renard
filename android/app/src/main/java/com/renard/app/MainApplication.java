@@ -1,4 +1,4 @@
-package plus.pronote.app;
+package com.renard.app;
 
 import android.app.Application;
 import android.content.res.Configuration;

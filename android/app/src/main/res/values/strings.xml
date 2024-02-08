@@ -1,6 +1,9 @@
 <resources>
-  <string name="app_name">Papillon</string>
+  <string name="app_name">Renard</string>
   <string name="expo_splash_screen_resize_mode" translatable="false">cover</string>
   <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
   <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+  <string name="widget_hello_description" translatable="false">This is my first widget</string>
+  <string name="widget_clickdemo_description" translatable="false">This is my first widget</string>
+  <string name="widget_edt_description" translatable="false">Affiche les 3 prochains cours de votre emploi du temps au jour d\'aujourd\'hui</string>
 </resources>

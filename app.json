@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Papillon",
-    "slug": "papillonvex",
-    "scheme": "papillon",
-    "version": "6.5.1",
+    "name": "Renard",
+    "slug": "rendard",
+    "scheme": "renard",
+    "version": "6.5.8",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -57,7 +57,7 @@
           "backgroundColor": "#000000"
         }
       },
-      "package": "plus.pronote.app",
+      "package": "com.renard.app",
       "permissions": [
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION",
@@ -73,6 +73,51 @@
       }
     },
     "plugins": [
+      [
+        "react-native-android-widget",
+        {
+          "fonts": [
+            "./assets/fonts/FixelText-Bold.ttf",
+            "./assets/fonts/FixelText-Light.ttf",
+            "./assets/fonts/FixelText-Medium.ttf",
+            "./assets/fonts/FixelText-Regular.ttf",
+            "./assets/fonts/FixelText-SemiBold.ttf",
+            "./assets/fonts/material.ttf"
+          ],
+          "widgets": [
+            {
+              "name": "Hello",
+              "label": "My Hello Widget",
+              "minWidth": "320dp",
+              "minHeight": "120dp",
+              "description": "This is my first widget",
+              "previewImage": "./android-widgets/hello.png",
+              "updatePeriodMillis": 1800000,
+              "resizeMode": "horizontal"
+            },
+            {
+              "name": "ClickDemo",
+              "label": "My Hello Widget",
+              "minWidth": "320dp",
+              "minHeight": "120dp",
+              "description": "This is my first widget",
+              "previewImage": "./android-widgets/hello.png",
+              "updatePeriodMillis": 1800000,
+              "resizeMode": "horizontal"
+            },
+            {
+              "name": "EDT",
+              "label": "Emploi du temps (3 cours)",
+              "minWidth": "320dp",
+              "minHeight": "120dp",
+              "description": "Affiche les 3 prochains cours de votre emploi du temps au jour d'aujourd'hui",
+              "previewImage": "./android-widgets/EDTWidget-preview.png",
+              "updatePeriodMillis": 1800000,
+              "resizeMode": "horizontal"
+            }
+          ]
+        }
+      ],
       [
         "expo-notifications",
         {
