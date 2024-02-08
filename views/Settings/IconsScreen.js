@@ -146,6 +146,11 @@ function AppearanceScreen({ navigation }) {
       name: 'sparkles',
       icon: require('../../assets/customicons/sparkles.png'),
     },
+       {
+      coverName: 'Icône brillante',
+      name: 'sparkles',
+      icon: require('../../assets/icon.png'),
+    },
   ];
 
   // backtoschool, barbie, betterneon, macos, oldios, verscinq
