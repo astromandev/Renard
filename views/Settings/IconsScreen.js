@@ -147,8 +147,8 @@ function AppearanceScreen({ navigation }) {
       icon: require('../../assets/customicons/sparkles.png'),
     },
        {
-      coverName: 'Icône brillante',
-      name: 'sparkles',
+      coverName: '????',
+      name: 'renard',
       icon: require('../../assets/icon.png'),
     },
   ];
